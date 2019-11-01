@@ -45,4 +45,8 @@ fun addx(x:int):int -<cloref1> int  = lam y => x + y
 
 val plus1 = print(addx(1)(2))
 
+fun z (x:int)(y:int):int = x + y
+
+val _ = print(z 2 3)
+
 implement main0 () = ()
